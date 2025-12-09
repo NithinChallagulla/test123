@@ -4,57 +4,58 @@ const streams = [
     name: "Model Guest House",
     id: "7014459821",
     rtmp: "rtmp://34.171.159.162/live/7014459821",
-    hls: "http://34.171.159.162/hls/7014459821.m3u8",
+    hls: "/hls/7014459821.m3u8",
   },
   {
     name: "Kummari Palem",
     id: "7031194782",
     rtmp: "rtmp://34.171.159.162/live/7031194782",
-    hls: "http://34.171.159.162/hls/7031194782.m3u8",
+    hls: "/hls/7031194782.m3u8",
   },
   {
     name: "Sitara Centre Junction",
     id: "7058811443",
     rtmp: "rtmp://34.171.159.162/live/7058811443",
-    hls: "http://34.171.159.162/hls/7058811443.m3u8",
+    hls: "/hls/7058811443.m3u8",
   },
   {
     name: "Milk Project",
     id: "7086625914",
     rtmp: "rtmp://34.171.159.162/live/7086625914",
-    hls: "http://34.171.159.162/hls/7086625914.m3u8",
+    hls: "/hls/7086625914.m3u8",
   },
   {
     name: "VG Chowk",
     id: "7104493275",
     rtmp: "rtmp://34.171.159.162/live/7104493275",
-    hls: "http://34.171.159.162/hls/7104493275.m3u8",
+    hls: "/hls/7104493275.m3u8",
   },
   {
     name: "BRTS Road (Parking)",
     id: "7123368896",
     rtmp: "rtmp://34.171.159.162/live/7123368896",
-    hls: "http://34.171.159.162/hls/7123368896.m3u8",
+    hls: "/hls/7123368896.m3u8",
   },
   {
     name: "Railway Station",
     id: "7142290087",
     rtmp: "rtmp://34.171.159.162/live/7142290087",
-    hls: "http://34.171.159.162/hls/7142290087.m3u8",
+    hls: "/hls/7142290087.m3u8",
   },
   {
     name: "Bus Stand",
     id: "7161147728",
     rtmp: "rtmp://34.171.159.162/live/7161147728",
-    hls: "http://34.171.159.162/hls/7161147728.m3u8",
+    hls: "/hls/7161147728.m3u8",
   },
   {
     name: "Seethamma Vari Paadalu",
     id: "7189076619",
     rtmp: "rtmp://34.171.159.162/live/7189076619",
-    hls: "http://34.171.159.162/hls/7189076619.m3u8",
+    hls: "/hls/7189076619.m3u8",
   },
 ];
+
 
 function createStreamCard(stream) {
   const card = document.createElement("article");
