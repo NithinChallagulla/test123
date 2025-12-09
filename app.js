@@ -56,6 +56,7 @@ const streams = [
   },
 ];
 
+
 function createStreamCard(stream) {
   const card = document.createElement("article");
   card.className = "card";
